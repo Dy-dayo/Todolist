@@ -1,0 +1,66 @@
+body{
+  background: rgb(180, 180, 254);
+  text-align: center;
+}
+*{
+    box-sizing: border-box;
+}
+main{
+    width: 500px;
+    background-color: linear-gradient(to bottom,black,white);
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px auto;
+}
+.write-to-do{
+    width: 350px;
+    height: 40px;
+    font-size: 18px;
+    padding: 5px 10px;
+    border: none;
+    
+}
+.write-to-do:focus{
+    outline:2px solid rgb(0, 89, 255) ;
+}
+.add-to-do{
+    height: 40px;
+    padding: 5px 10px;
+    font-size: 18px;
+    border: none;
+    background: rgb(0, 89, 255);
+}
+
+.to-do-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    padding: 5px 10px;
+    background-color: rgb(179, 213, 202);
+    height: 40px;
+    margin: 10px auto;
+
+}
+/* input:checked{
+    accent-color: palevioletred;
+} */
+.check{
+    padding: 5px 10px;
+    text-decoration: line-through;
+    background-color: rgb(210, 154, 173);
+    height: 40px;
+    margin: 10px auto;
+    accent-color: palevioletred;
+}
+.to-do-item button{
+    border-radius: 50%;
+    background-color: rgb(99, 99, 236);
+    border: 1px solid brown;
+    color: rgb(174, 0, 0);
+    font-weight: 600;
+}
+.to-do-item button:hover{
+    background-color: rgb(104, 3, 3);
+}
